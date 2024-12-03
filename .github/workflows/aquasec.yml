@@ -19,7 +19,7 @@ jobs:
           # To enable SAST scanning, add: --sast
           # To enable reachability scanning, add: --reachability
           # To enable npm/dotnet/gradle non-lock file scanning, add: --package-json / --dotnet-proj / --gradle
-          # vault
+          # vault 1
         env:
           AQUA_KEY: ${{ secrets.AQUA_KEY }}
           AQUA_SECRET: ${{ secrets.AQUA_SECRET }}
